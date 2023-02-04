@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstpart{
+    background-color: #F0FFF0;
+  
+    width: 100%;
+}
+
+/* navbar  */
+
+.nav{
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-evenly;
+    margin: 0% 5% 0% 10%;
+}
+
+.li{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    padding-left: 50%;
+}
+
+.my-style{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.Singin{
+    background: #21B573;
+border-radius: 33px;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 28px;
+gap: 10px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.second-part{
+    display: flex;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-content: center;
+    column-gap: 100px;
+    padding-top: 3%;
+}
+
+
+
+@media screen and  (max-width: 400px) {
+    .nav {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .li {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+      display: none;
+    }
+    
+    .Singin {
+      
+      font-size: 15px;
+      width: 20%;
+    }
+  }
+
+  @media screen and  (max-width: 400px) {
+   .second-part{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 10% 3% 5%;
+   }
+   .pic{
+    width: 100%;
+   }
+  }
+
+  @media screen and  (max-width: 400px) {
+        .third{
+            display: flex;
+            flex-direction: column;
+        }
+  }
+
+  @media screen and  (max-width: 400px) {
+    .four{
+        display: flex;
+        flex-direction:column ;
+    }
+  }
+
+  @media screen and  (max-width: 400px) {
+    .man{
+        display: flex;
+        flex-direction: column;
+    }
+    .man img{
+        width: 50%;
+        align-self: center;
+    }
+  }
+  @media screen and  (max-width: 400px) {
+  .footer{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  }
